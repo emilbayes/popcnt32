@@ -1,0 +1,6 @@
+const popcnt32 = require('.')
+
+console.log(popcnt32(0b11111111111111111111111111111111) === 32)
+console.log(popcnt32(0b111111111111111111111111111111111) === 32)
+console.log(popcnt32(0b10000000000000000000000000000000) === 1)
+console.log(popcnt32(-1) === 32)
