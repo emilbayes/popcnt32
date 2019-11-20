@@ -1,6 +1,6 @@
 {
   "name": "popcnt32",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Calculate population count (popcnt) on a 32-bit number, branch free",
   "main": "index.js",
   "publishConfig": {
